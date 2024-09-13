@@ -22,6 +22,7 @@ while playing:
     elif user_input == 4:
         print("La Division es...", num1 / num2)
     elif user_input == 5:
-        print("Chaoo", playing = False)
+        print("Chaoo")
+        playing = False
     else:
         print("Por favor elija un numero de la lista")
