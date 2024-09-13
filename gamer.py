@@ -1,7 +1,9 @@
 import random
 
-nume_ran =random.randint(1, 100)
+nume_ran = random.randint(1, 100)
 playing = True
+
+computador = random(1, 100)
 
 while playing:
     guess = int(input("ingresa un numero:"))
