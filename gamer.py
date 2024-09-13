@@ -15,3 +15,4 @@ while playing:
     elif guess < nume_ran:
         print(f"el numero {guess} es menor")
     
+    if 
