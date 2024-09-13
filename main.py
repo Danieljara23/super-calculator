@@ -17,5 +17,5 @@ while playing:
         print("La suma es...", num1 + num2)
     elif user_input == 2:
         print("La resta es...", num1 - num2)
-        
+
 playing = False
