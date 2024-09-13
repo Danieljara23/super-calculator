@@ -8,4 +8,8 @@ while playing:
     if guess == nume_ran:
         playing = False
         print(f"el numero{guess} es el correcto")
+    elif guess > nume_ran:
+        print(f"el numero {guess} es mayor")
+    elif guess < nume_ran:
+        print(f"el numero {guess} es menor")
     
