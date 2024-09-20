@@ -21,6 +21,7 @@ while playing:
     if computador == nume_ran:
         playing = False
         print(f"el numero de tu rival: {computador} es el correcto")
+        break
     elif computador > nume_ran:
         print(f"el numero de tu rival: {computador} es mayor")
     elif computador < nume_ran:
