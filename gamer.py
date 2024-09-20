@@ -11,9 +11,9 @@ while playing:
         print("felizidades eres el ganador")
         break
     elif guess > nume_ran:
-        print(f"el numero {guess} es mayor")
+        print(f"el numero que ingresaste {guess} es mayor")
     elif guess < nume_ran:
-        print(f"el numero {guess} es menor")
+        print(f"el numero que ingresaste {guess} es menor")
 
 
     #IA del rival
